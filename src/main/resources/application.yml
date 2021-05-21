@@ -1,0 +1,13 @@
+logging:
+  file:
+    path: E:/48.loki/docker/applicationA
+
+server:
+  port: 7002
+
+spring:
+  profiles:
+    active: @spring.profiles.active@
+  application:
+    name: applicationA
+
